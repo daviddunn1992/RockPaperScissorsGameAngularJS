@@ -1,0 +1,43 @@
+
+ @keyframes slideInFromTop {
+   0% {
+     transform: translateY(-600px);
+   }
+   100% {
+     transform: translateY(0);
+   }
+ }
+ @keyframes opacityAnimation {
+   0% {
+     opacity: 0;
+   }
+   75% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+
+ #inputForName{
+   margin-top: 30px;
+   margin-bottom: 50px;
+   animation: 1.8s ease-in slideInFromTop;
+ }     
+ #titleImage{
+   height: auto;
+   width: 15%;
+   animation: 1.3s ease-in slideInFromTop;
+ }
+ #titleSubImage{
+   height: auto;
+   width: 30%;
+   margin-bottom: 10px;
+   animation: 1.3s ease-in slideInFromTop;
+ }
+ #startBtn{
+   animation: 1.0s ease-in opacityAnimation;
+   font-size: 2em;
+   display: none;
+ }
+      

@@ -1,0 +1,51 @@
+<head>
+  <link rel="stylesheet" href="./css/mainGame.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <table id="scoreboard">
+      <tr>
+        <td>{{Username}}</td>
+        <td>{{ScorePlayer}}</td>
+      </tr>
+      <tr>
+        <td> CPU </td>
+        <td>{{ScoreCPU}}</td>
+      </tr>
+    </table>
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+            <img id="titleSubImage" src="./img/rpsimage.png">
+      </div>        
+    </div>
+    <div class="row playMainDiv">
+      <div class="col-sm-5"> 
+        <h1 id="userTitlePlayer">{{Username}}</h1>
+          <div class="col-sm-12 text-center">
+            <img class="playerAviImage" src="./img/playerAvi.png">
+          </div>
+          
+      </div>
+      <div class="col-sm-2  text-center"> 
+        <h1>VS</h1>
+      </div>
+      <div class="col-sm-5">
+        <h1 id="userTitleCPU"> CPU </h1>
+        <div class="col-sm-12 text-center">
+          <img class="playerAviImage" src="./img/evilCPU.png">
+        </div>
+      </div>
+      <div class="col-sm-12 text-center">
+          <h2> Choose Your Option</h2>
+         <div class="btn-group divButtonsListForPlayer">
+            <button type="button" value="0" class="btn btn-default">Rock</button>
+            <button type="button" value="1" class="btn btn-default">Paper</button>
+            <button type="button" value="2" class="btn btn-default">Scissors</button>
+         </div> 
+      </div>
+    </div>
+  </div>
+</body>
